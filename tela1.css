@@ -1,0 +1,428 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fdfdfd;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 100vw;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.secao-nome {
+    box-shadow: -1px 2px 2px -1px rgba(0, 0, 0, 0.75);
+}
+
+.nome {
+    width: 70vw;
+    display: flex;
+    padding: .3rem;
+}
+
+.nomes {
+    margin: 0 .5rem 0 .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 145px;
+    white-space: nowrap;
+}
+
+.cadastro-nome {
+    border: 1px solid black;
+    padding: 0 1rem;
+    margin-bottom: 0;
+    -webkit-box-shadow: inset 1px 1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 1px 8px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 1px 8px 6px rgba(0, 0, 0, 0, 75);
+}
+
+.item {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 1.8rem;
+}
+
+.items {
+    display: flex;
+    box-shadow: -1px 2px 2px -1px rgba(0, 0, 0, 0.75);
+    margin-top: 1rem;
+}
+
+#item-icons {
+    font-size: 45px;
+    justify-content: center;
+}
+
+.item-nome {
+    margin: 0 1rem;
+}
+
+.item-texto {
+    margin-left: 2rem;
+}
+
+.funcionario {
+    display: flex;
+    position: relative;
+    left: 4rem;
+}
+
+.a {
+    border: solid 1px black;
+    padding: 1.4rem;
+}
+
+.btn-sair {
+    position: relative;
+    left: 8em;
+    width: 110px;
+    height: 40px;
+    font-size: 1.4rem;
+}
+
+.row {
+    font-weight: 600;
+}
+
+.row-td {
+    margin: .4rem 0 0 .3rem;
+    padding: .4rem;
+    white-space: nowrap;
+}
+
+.js {
+    justify-content: center;
+}
+
+.secao {
+    float: left;
+}
+
+.recentes {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 1rem;
+    float: left;
+}
+
+.recente-nome {
+    font-size: 22px;
+    margin: .4rem 0 0 .5rem;
+    font-weight: 540;
+}
+
+.recente {
+    margin-bottom: .8rem;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+
+.principal-tr2 {
+    width: 90vw;
+    border: solid 1px;
+}
+
+.principal-nome {
+    width: 39%;
+    padding: .9rem;
+    border: 1px solid;
+    white-space: nowrap;
+    position: relative;
+    font-size: 15px;
+}
+
+.principal-th {
+    border: 1px solid black;
+    width: 50px;
+    position: relative;
+    vertical-align: middle;
+    padding: .1rem;
+}
+
+.principal-th2 {
+    border: 1px solid black;
+    width: 50px;
+    padding: .1rem;
+}
+
+.principal-teste {
+    width: auto;
+}
+
+.principal-td {
+    padding: .5rem;
+}
+
+.principal-label {
+    margin-bottom: .3rem;
+}
+
+.principal-input {
+    width: 130px;
+    padding: .4rem;
+    margin-bottom: 1.4em;
+    display: flex;
+}
+
+.principal-input3 {
+    width: 170px;
+    padding: .4rem;
+    display: flex;
+}
+
+.principal-select {
+    padding: .4rem;
+    margin-right: .5rem;
+    display: flex;
+}
+
+.principal-btn {
+    position: relative;
+    top: 1.5rem;
+    right: 3rem;
+    margin-left: 42rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+.tabela-th {
+    border: 1px solid black;
+    padding: .3rem;
+}
+
+.tabela-tr2 {
+    border: 1px solid black;
+    width: auto;
+    padding: .2rem;
+}
+
+.afastado {
+    position: relative;
+    left: 14.2rem;
+    width: 40px;
+}
+
+.tabela-ofctr {
+    white-space: pre;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tabela-dois {
+    display: flex;
+    position: relative;
+    top: -1.2rem;
+}
+
+.meio {
+    padding: 10rem;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.meio-texto {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.borda {
+    display: flex;
+    width: 85%;
+    position: relative;
+    left: 11.3rem;
+    top: -1.3rem;
+}
+
+.borda-meio {
+    z-index: 99;
+    position: relative;
+    bottom: 11.2rem;
+    left: 87.5rem;
+    border: 1px solid black;
+    width: 60px;
+    padding: .3rem;
+}
+
+.botoes {
+    display: flex;
+    position: relative;
+    left: 11.3rem;
+    top: -1.3rem;
+}
+
+.botao {
+    width: 110px;
+    height: 50px;
+    display: -webkit-inline-box;
+}
+
+.btn {
+    width: 110px;
+    height: 50px;
+    position: relative;
+    left: 47rem;
+}
+
+.icons::before {
+    margin: 0 .5rem 0 .2rem;
+    font-size: 26px;
+    float: left;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    white-space: nowrap;
+    align-items: end;
+}
+
+.container input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(65, 192, 36, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(29, 218, 247, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark2 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(241, 49, 49, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark3 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(44, 117, 234, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark4 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 239, 133, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark5 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(249, 179, 0, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.checkmark6 {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(209, 227, 255, 0.867);
+    position: relative;
+    left: .5rem;
+}
+
+.caixa {
+    display: flex;
+    position: relative;
+    left: 11.3rem;
+    border: 1px solid;
+    padding: .6rem;
+    top: -1rem;
+}
+
+.caixa-texto {
+    position: relative;
+    left: 11.3rem;
+    top: -1rem;
+}

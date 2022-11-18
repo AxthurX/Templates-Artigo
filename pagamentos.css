@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fdfdfd;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 100vw;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.box {
+    background-color: #fdfdfd;
+    border: 1px solid black;
+    padding: .5rem;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    font-size: 1.4rem;
+    border: 1px solid black;
+    width: auto;
+    padding: .5rem;
+}
+
+.nome {
+    border: 1px solid black;
+    width: 300px;
+    padding: .6rem;
+}
+
+.row {
+    display: flex;
+}
+
+.td {
+    border: 1px solid black;
+    width: auto;
+}
+
+.primeiro {
+    width: 50px;
+}
+
+.tabela-tr2 {
+    border: 1px solid black;
+    width: auto;
+    padding: .2rem;
+}
+
+.tabela-ofctr {
+    white-space: pre;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+}
+
+.tabela {
+    border: 1px solid black;
+}
+
+.meio {
+    padding: 10rem;
+}
+
+.meio-texto {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.margem  {
+    margin: 0 5rem;
+    width: 200px;
+    position: relative;
+    bottom: 3rem;
+    right: 4rem;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.select {
+    width: 100%;
+}
+
+.outroN {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 54rem;
+    top: 1rem;
+}
+
+.sla {
+    border: 1px solid black;
+    height: 140px;
+    width: auto;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    padding: 1.2rem;
+    font-size: 2.8rem;
+    color: black;
+}
+
+.arthur {
+    margin: 5rem 5rem 0 5rem;
+    height: auto;
+    border: 1px solid black;
+}
+
+.select {
+    display: flex;
+    align-self: flex-start;
+    padding: .3rem;
+}
+
+.margin-left {
+    margin: 0 .4rem;
+}
+
+.th {
+    border: 1px solid black;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+.vendedor {
+    margin-bottom: .4rem;
+}

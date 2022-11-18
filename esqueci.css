@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fdfdfd;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 100vw;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+/* GENERAL STYLES */
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+    background: #e1e1e1;
+    background: linear-gradient(to right, #b1b1b1, #545a5e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(216, 216, 216);
+    padding: 40px;
+    min-width: 500px;
+    max-width: 700px;
+    border-radius: 7px;
+    border-left: 7px solid #404041;
+}
+
+h1 {
+    font-size: 2rem !important;
+    margin-bottom: 2rem !important;
+}

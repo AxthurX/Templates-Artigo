@@ -1,0 +1,183 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #f8f8f8;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --vermelho: #D94937;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100vw;
+    margin: auto auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.banner__titulo {
+    position: relative;
+    top: 4.6rem;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    width: 100vw;
+    box-shadow: -1px 4px 3px -1px rgba(0, 0, 0, 0.75);
+
+}
+
+.principal {
+    margin: 5em auto 0 auto;
+}
+
+.principal__subtitulo {
+    width: 8%;
+    padding: .4rem;
+    font-weight: 500;
+    box-shadow: inset 2px 2px 7px -1px rgba(0, 0, 0, 0.75);
+}
+
+.principal__input {
+    width: 151px;
+    inline-size: -webkit-fill-available;
+    text-align: right;
+    padding: .4rem;
+}
+
+.principal__unidade {
+    width: 70px;
+    inline-size: -webkit-fill-available;
+    text-align: right;
+    padding: .5rem;
+}
+
+.principal__unitario {
+    width: 40px;
+    text-align: right;
+    padding: .5rem;
+    inline-size: -webkit-fill-available;
+
+}
+
+.principal__select {
+    width: 100px;
+    padding: .5rem;
+}
+
+.principal__grande {
+    width: 220px;
+    padding: .5rem;
+    inline-size: -webkit-fill-available;
+}
+
+.principal__descricao {
+    width: 140px;
+    text-align: right;
+    inline-size: -webkit-fill-available;
+    padding: .5rem;
+
+}
+
+.principal__select2 {
+    width: 120px;
+    padding: .5rem;
+    inline-size: -webkit-fill-available;
+}
+
+Th {
+    border: 1px solid #4c4c4c;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-top: 2px solid #000000;
+    padding: .5rem;
+    width: 100vw;
+}
+
+label {
+    float: left;
+    margin: 0 0 .2rem 0;
+}
+
+main {
+    border: 1px solid;
+    padding: .5rem;
+    box-shadow: inset 2px 2px 10px -1px rgba(0, 0, 0, 0.75);
+
+}
+
+.rodape {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.rodape__check {
+    display: flex;
+}
+
+.btn__salvar {
+    padding: 1rem;
+}
+
+.btn__cancelar {
+    padding: 1rem;
+}
+
+.rodape__label {
+    align-self: center;
+    margin-left: .3rem;
+}

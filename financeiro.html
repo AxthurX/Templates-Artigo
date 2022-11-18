@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="financeiro.css">
+    <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+</head>
+
+<body>
+
+    <section class="secao-nome">
+        <div class="nome">
+            <h2 class="nomes ">Cadastros</h2>
+            <h2 class="nomes">Movimentação</h2>
+            <h2 class="nomes">Gestão de estoque</h2>
+            <h2 class="nomes">Compras</h2>
+            <h2 class="nomes cadastro-nome">Financeiro</h2>
+            <h2 class="nomes">Relatórios</h2>
+            <h2 class="nomes">Tags</h2>
+            <h2 class="nomes">Manutenção</h2>
+            <h2 class="nomes">Informação</h2>
+        </div>
+    </section>
+
+    <section class="items">
+        <div class="item">
+            <i id="item-icons" class="fi fi-rr-chart-histogram"></i>
+            <h3 class="item-nome">Resumo financeiro</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-sr-usd-circle"></i>
+            <h3 class="item-nome">Contas a Receber</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-sr-usd-circle"></i>
+            <h3 class="item-nome">Contas a Pagar</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-rs-badge-dollar"></i>
+            <h3 class="item-nome">Controle de Caixa</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-ts-money-check-edit"></i>
+            <h3 class="item-nome">Cheque</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-rr-credit-card"></i>
+            <h3 class="item-nome">Cartões</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-sr-usd-square"></i>
+            <h3 class="item-nome">Contas Correntes</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-bs-dollar"></i>
+            <h3 class="item-nome">Creditos</h3>
+        </div>
+        <div class="item">
+            <i id="item-icons" class="fi fi-rs-file-invoice-dollar"></i>
+            <h3 class="item-nome">Recibo</h3>
+        </div>
+        <div class="item funcionario">
+            <i id="item-icons" class="a fi fi-rr-user"></i>
+            <h3 class="item-texto">Funcionario: </h3>
+        </div>
+        <div class="item">
+            <button class="btn-sair">Sair</button>
+        </div>
+
+    </section>
+
+    <section class="secao">
+        <p class="recente-nome">Recentes</p>
+        <div class="recentes">
+            <h4 class="recente">Produtos</h4>
+            <h4 class="recente">Livro caixa</h4>
+            <h4 class="recente">Controle de caixa</h4>
+            <h4 class="recente">Pagamentos</h4>
+        </div>
+    </section>
+
+    <main class="principal">
+        <div class="principal-div">
+            <h5 class="principal-nome">Financeiro</h5>
+        </div>
+
+        <div class="principal-teste">
+            <table>
+                <tr class="principal-trr">
+                    <th class="principal-th">Filtros</th>
+                    <th class="principal-th2">Filtros Personalizados</th>
+                </tr>
+
+                <tr class="principal-tr2">
+                    <td class="principal-td">
+                        <label class="principal-label" for="">Codigo</label>
+                        <input class="principal-input" type="text"></input>
+                    </td>
+                    <td class="principal-td">
+                        <label class="principal-label" for="">Vendas</label>
+                        <input class="principal-input" type="text"></input>
+                    </td>
+                    <td class="principal-td">
+                        <label class="principal-label" for="">Cliente</label>
+                        <input class="principal-input" type="text"></input>
+                    </td>
+                    <td class="principal-td">
+                        <label class="principal-label3" for="">Data inicial</label>
+                        <input class="principal-input3" type="text"></input>
+                    </td>
+                    <td>
+                        <label for="">Tipo de dados</label>
+                        <select class="principal-select" name="" id="">
+                            <option value="">Todos</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">Recebidas</label>
+                        <select class="principal-select" name="" id="">
+                            <option value="">Não</option>
+                        </select>
+                    </td>
+                    <td>
+                    <td>
+                        <label for="">Em atraso</label>
+                        <select class="principal-select" name="" id="">
+                            <option value="">Não</option>
+                        </select>
+                    </td>
+                    <td>
+                    <td>
+                        <label for="">Plano Contas</label>
+                        <select class="principal-select" name="" id="">
+                            <option value="">Não</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button class="principal-btn">Procurar</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <br>
+    </main>
+
+    <table class="tabela-dois">
+        <tr>
+            <th class="tabela-th">Vendas</th>
+        </tr>
+
+        <tr class="tabela-ofctr">
+            <td class="tabela-tr2">#</td>
+            <td class="tabela-tr2">Cód. </td>
+            <td class="tabela-tr2">Cód. Cliente </td>
+            <td class="tabela-tr2">Nomes </td>
+            <td class="tabela-tr2">CPF/CNPJ</td>
+            <td class="tabela-tr2">Valor</td>
+            <td class="tabela-tr2">Valor Recebido</td>
+            <td class="tabela-tr2">Desconto </td>
+            <td class="tabela-tr2">Abatimento</td>
+            <td class="tabela-tr2">Valor restante</td>
+            <td class="tabela-tr2">Juros </td>
+            <td class="tabela-tr2">Emissão</td>
+            <td class="tabela-tr2">Vencimento</td>
+        </tr>
+
+    </table>
+    <div class="borda">
+        <div class="meio">
+            <p class="meio-texto">Nenhum dado a ser exibido</p>
+            <p class="borda-meio">R$157</p>
+        </div>
+    </div>
+
+
+    <div class="botoes">
+        <button class="botao"><i class="fi fi-ss-add icons">Inserir</i></button>
+        <button class="botao"><i class="fi fi-rr-edit icons">Editar</i></button>
+        <button class="botao"><i class="fi fi-br-x icons">Excluir</i></button>
+        <button class="botao"><i class="fi fi-rr-edit icons">Receber</i></button>
+        <button class="botao"><i class="fi fi-bs-arrows-repeat icons">Recebimento Multiplos</i></button>
+        <button class="botao"><i class="fi fi-rr-search-alt icons">Imprimir Recibo</i></button>
+        <button id="icons" class="botao"><i class="fi fi-br-download icons">Faturamento</i></button>
+        <button class="btn">Imprimir carnê</button>
+    </div>
+
+    <h5 class="caixa-texto">Legenda</h5>
+    <div class="caixa">
+
+        <label class="container">Em atraso
+            <input type="checkbox">
+            <span class="checkmark2"></span>
+        </label>
+        <label class="container">Valor em aberto:  596,93
+            <input type="text">
+        </label>
+        <label class="container">Valor Recebido:  21,96
+            <input type="text">
+        </label>
+        <label class="container">Venda restante:  536,32
+            <input type="text">
+        </label>
+    </div>
+</body>
+
+</html>

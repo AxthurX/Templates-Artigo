@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tela2.css">
+</head>
+
+<body>
+    <section class="banner">
+        <h2 class="banner__titulo">Edição de Produtos</h2>
+    </section>
+
+    <main class="principal">
+        <table>
+            <tr>
+                <th class="principal__subtitulo">Cadastro</th>
+                <th class="principal__subtitulo">Informações Adicionais</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Cod. interno</label>
+                    <input class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Cod. barras</label>
+                    <input class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Descrição</label>
+                    <input class="principal__descricao " type="text">
+                </td>
+                <td>
+                    <label for="">Unidade</label>
+                    <input class="principal__unitario" type="text">
+                </td>
+                <td>
+                    <label for="">Referencia</label>
+                    <input type="text" class="principal__unidade">
+                </td>
+                <td>
+                    <label for="">Tipo</label>
+                    <select class="principal__select" name="Tipo" id="">
+                        <Option>Produtos</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Ativo</label>
+                    <select class="principal__select" id="">
+                        <option>SIM</option>
+                        <option>Não</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <label>Descrição adicional</label>
+                    <input type="text" class="principal__grande">
+                </td>
+                <td>
+                    <label for="">Grupo</label>
+                    <select class="principal__grande">
+                        <option value="">Geral</option>
+                        <option value=""></option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Familia</label>
+                    <select class="principal__grande">
+                        <option>Geral</option>
+                        <option></option>
+                    </select>
+
+                <td>
+                    <label for="">Categoria</label>
+                    <select class="principal__grande">
+                        <option>Geral</option>
+                        <option>Não</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>Preço
+            <tr>
+                <td>
+                    <label for="">Custo</label>
+                    <input placeholder="0,00" class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Margem atual %</label>
+                    <input placeholder="0,00" class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Margem fixa %</label>
+                    <input placeholder="0,00" class="principal__descricao " type="text">
+                </td>
+                <td>
+                    <label for="">Unitaria venda</label>
+                    <input placeholder="0,00" class="principal__descricao" type="text">
+                </td>
+                <td>
+                    <label for="">Parcelas</label>
+                    <input placeholder="1" type="text" class="principal__descricao">
+                </td>
+                <td>
+                    <label for="">Valor parcelado</label>
+                    <input placeholder="0,00" type="text" class="principal__descricao">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Inicio promoção</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Produtos</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Final promoção</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Produtos</Option>
+                        <Option></Option>
+                    </select>
+                <td>
+                    <label for="">Tipo</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Produtos</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Comissão %</label>
+                    <input placeholder="0,00" type="text" class="principal__select2">
+                </td>
+                <td>
+                    <label for="">valor aluguel</label>
+                    <input placeholder="0,00" type="text" class="principal__select2">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table> Estoque
+            <tr>
+                <td>
+                    <label for="">Qtd. estoque</label>
+                    <input placeholder="0,0000" class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Qtd. condicional</label>
+                    <input placeholder="0,0000" class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Qtd. consignada</label>
+                    <input placeholder="0,0000" class="principal__descricao " type="text">
+                </td>
+                <td>
+                    <label for="">Qtd. Disponivel</label>
+                    <input placeholder="0,0000" class="principal__descricao" type="text">
+                </td>
+                <td>
+                    <label for="">Fator entrada</label>
+                    <input placeholder="1,000" type="text" class="principal__descricao">
+                </td>
+                <td>
+                    <label for="">Fator saída</label>
+                    <input placeholder="1,000" type="text" class="principal__descricao">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Qtde. minima</label>
+                    <input placeholder="0,000" type="text" class="principal__descricao">
+                </td>
+                <td>
+                    <label for="">Qtde. maxima</label>
+                    <input placeholder="0,000" type="text" class="principal__descricao">
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table>Informações
+            <tr>
+                <td>
+                    <label for="">Fornecedor </label>
+                    <input class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Razão social</label>
+                    <input placeholder="0,0000" class="principal__input" type="text">
+                </td>
+                <td>
+                    <label for="">Possui garantia</label>
+                    <select class="principal__select2" name="" id="">
+                        <option value="">Não</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Periodo garantia</label>
+                    <input placeholder="0" class="principal__descricao" type="number">
+                </td>
+                <td>
+                    <label for="">Fabricante</label>
+                    <input type="text" class="principal__grande">
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <label for="">Permitir Fracionar</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Não</Option>
+                        <Option>Sim</Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Permitir múltiplo</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Sim</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Grade</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Não</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Kit</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>Não</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Pesável</label>
+                    <select class="principal__select2" name="Tipo" id="">
+                        <Option>não</Option>
+                        <Option></Option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">Localização</label>
+                    <input type="text" class="principal__grande">
+                </td>
+            </tr>
+        </table>
+    </main>
+
+
+    <footer class="rodape">
+    <div class="rodape__check">
+        <input class="rodape__input" type="checkbox" id="check">
+        <label class="rodape__label" for="check">Campo Obrigatorio</label>
+    </div>
+
+        <div class="rodape__btn">
+            <button class="btn__salvar">Salvar</button>
+            <button class="btn__cancelar">Cancelar</button>
+        </div>
+    </footer>
+</body>
+
+</html>
